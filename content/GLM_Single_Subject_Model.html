@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,9 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
-  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -151,6 +151,7 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
   
 
 <a class="navbar-brand logo" href="intro.html">
@@ -459,6 +460,7 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
@@ -468,6 +470,7 @@ document.write(`
   </button>
 `);
 </script>
+
 
 <script>
 document.write(`
@@ -586,8 +589,8 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/Users/lukechang/anaconda3/lib/python3.7/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.linear_model.base module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.linear_model. Anything that cannot be imported from sklearn.linear_model is now part of the private API.
-  warnings.warn(message, FutureWarning)
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/Users/lukechang/opt/anaconda3/lib/python3.11/site-packages/bids/layout/validation.py:122: UserWarning: The PipelineDescription field was superseded by GeneratedBy in BIDS 1.4.0. You can use ``pybids upgrade`` to update your derivative dataset.
+  warnings.warn(&quot;The PipelineDescription field was superseded &quot;
 </pre></div>
 </div>
 </div>
@@ -606,16 +609,6 @@ document.write(`
     <span class="k">return</span> <span class="n">onsets_to_dm</span><span class="p">(</span><span class="n">onsets</span><span class="p">,</span> <span class="n">sampling_freq</span><span class="o">=</span><span class="mi">1</span><span class="o">/</span><span class="n">tr</span><span class="p">,</span> <span class="n">run_length</span><span class="o">=</span><span class="n">n_tr</span><span class="p">)</span>
 
 <span class="n">dm</span> <span class="o">=</span> <span class="n">load_bids_events</span><span class="p">(</span><span class="n">layout</span><span class="p">,</span> <span class="s1">&#39;S01&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/Users/lukechang/anaconda3/lib/python3.7/site-packages/nltools-0.3.18-py3.7.egg/nltools/file_reader.py:141: UserWarning: Computed onsets for video_right_hand are inconsistent with expected values. Please manually verify the outputted Design_Matrix!
-  f&quot;Computed onsets for {data.Stim.unique()[i]} are inconsistent with expected values. Please manually verify the outputted Design_Matrix!&quot;
-/Users/lukechang/anaconda3/lib/python3.7/site-packages/nltools-0.3.18-py3.7.egg/nltools/file_reader.py:141: UserWarning: Computed onsets for video_left_hand are inconsistent with expected values. Please manually verify the outputted Design_Matrix!
-  f&quot;Computed onsets for {data.Stim.unique()[i]} are inconsistent with expected values. Please manually verify the outputted Design_Matrix!&quot;
-/Users/lukechang/anaconda3/lib/python3.7/site-packages/nltools-0.3.18-py3.7.egg/nltools/file_reader.py:141: UserWarning: Computed onsets for audio_computation are inconsistent with expected values. Please manually verify the outputted Design_Matrix!
-  f&quot;Computed onsets for {data.Stim.unique()[i]} are inconsistent with expected values. Please manually verify the outputted Design_Matrix!&quot;
 </pre></div>
 </div>
 </div>
@@ -796,7 +789,7 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/cf7bcadeba1070b2cdaca7586ab05c83ae01c81b51d55f464ae7c9da8ea42909.png" src="../_images/cf7bcadeba1070b2cdaca7586ab05c83ae01c81b51d55f464ae7c9da8ea42909.png" />
+<img alt="../_images/cc660a5f0f056193fb113b8f4ab39f86b0c4ec364219dce02f2c2a662166e743.png" src="../_images/cc660a5f0f056193fb113b8f4ab39f86b0c4ec364219dce02f2c2a662166e743.png" />
 </div>
 </div>
 <p>You can see that each of the regressors is now  bit blurrier and now has the shape of an HRF function. We can plot a single regoressor to see this more clearly using the <code class="docutils literal notranslate"><span class="pre">.plot()</span></code> method.</p>
@@ -808,10 +801,10 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fb69091c990&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: &gt;
 </pre></div>
 </div>
-<img alt="../_images/501221c2a58898eec6a301425eb01f734379fe8b84d090546e380eec8f345fcf.png" src="../_images/501221c2a58898eec6a301425eb01f734379fe8b84d090546e380eec8f345fcf.png" />
+<img alt="../_images/9d1eb2b5145c3f7a985201f93100d2611d775b4d900f14d0f326f79563dc2872.png" src="../_images/9d1eb2b5145c3f7a985201f93100d2611d775b4d900f14d0f326f79563dc2872.png" />
 </div>
 </div>
 <p>Maybe we want to plot both of the checkerboard regressors.</p>
@@ -823,10 +816,10 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fb690964c90&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: &gt;
 </pre></div>
 </div>
-<img alt="../_images/5b9c405bbfca1c7ba309f25bb646e72532b5d55529b65976eff6d005dff964db.png" src="../_images/5b9c405bbfca1c7ba309f25bb646e72532b5d55529b65976eff6d005dff964db.png" />
+<img alt="../_images/a4201eb573d8661245745fe66c0c58eb0ead6a7e4417f15adc383c0452659c5b.png" src="../_images/a4201eb573d8661245745fe66c0c58eb0ead6a7e4417f15adc383c0452659c5b.png" />
 </div>
 </div>
 </section>
@@ -842,10 +835,10 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fb700e335d0&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: &gt;
 </pre></div>
 </div>
-<img alt="../_images/8adee58675b89e389ddfe43d3f49fd2e4d7343beab084ad820c86223f051e660.png" src="../_images/8adee58675b89e389ddfe43d3f49fd2e4d7343beab084ad820c86223f051e660.png" />
+<img alt="../_images/60193d79aa2064e28b73f1d9c43e96f000eeca2283337b425c030b5a3ce6b7d9.png" src="../_images/60193d79aa2064e28b73f1d9c43e96f000eeca2283337b425c030b5a3ce6b7d9.png" />
 </div>
 </div>
 <section id="variance-inflation-factor">
@@ -870,7 +863,7 @@ memory usage: 10.1 KB
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0, 0.5, &#39;Variance Inflation Factor&#39;)
 </pre></div>
 </div>
-<img alt="../_images/0d2b98f1a13dbb99eede3dde12a0e7ca961675c8baf7efc4ea8197c39a27bcab.png" src="../_images/0d2b98f1a13dbb99eede3dde12a0e7ca961675c8baf7efc4ea8197c39a27bcab.png" />
+<img alt="../_images/f1696d99b6f48c13057d52cc081ea7e9f075c736cb150306b43f2fc61e63bbbb.png" src="../_images/f1696d99b6f48c13057d52cc081ea7e9f075c736cb150306b43f2fc61e63bbbb.png" />
 </div>
 </div>
 </section>
@@ -901,6 +894,7 @@ memory usage: 10.1 KB
             src="https://www.youtube.com/embed/DEtwsFdFwYc"
             frameborder="0"
             allowfullscreen
+            
         ></iframe>
         </div></div>
 </div>
@@ -921,10 +915,10 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fb69095e390&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: &gt;
 </pre></div>
 </div>
-<img alt="../_images/1f5486c086683894b8a9c25557a7b4663af1e182452e62eccab73a92577d3ad3.png" src="../_images/1f5486c086683894b8a9c25557a7b4663af1e182452e62eccab73a92577d3ad3.png" />
+<img alt="../_images/391616fcbd7d9070d5ff7a3278f874186846085487bcc96f5a240b675f5f41ba.png" src="../_images/391616fcbd7d9070d5ff7a3278f874186846085487bcc96f5a240b675f5f41ba.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -935,7 +929,7 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/796f036252d14083ba22ef8ff79ea6a2a57e759182deb2a4651eae53d778b968.png" src="../_images/796f036252d14083ba22ef8ff79ea6a2a57e759182deb2a4651eae53d778b968.png" />
+<img alt="../_images/3eacfc8856dc446799a436bcf477d0c1ac9e4898e5a55bbf26a5af4a77db4354.png" src="../_images/3eacfc8856dc446799a436bcf477d0c1ac9e4898e5a55bbf26a5af4a77db4354.png" />
 </div>
 </div>
 </section>
@@ -951,7 +945,7 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/7e4bf11ebb855863e11b38b2a88a88356b50b4f9ba1bc2dd9dc17a88bdb62d27.png" src="../_images/7e4bf11ebb855863e11b38b2a88a88356b50b4f9ba1bc2dd9dc17a88bdb62d27.png" />
+<img alt="../_images/877542d938b4be018731e0a141ff85b0e5296521fe84ee720c827802a228c7b4.png" src="../_images/877542d938b4be018731e0a141ff85b0e5296521fe84ee720c827802a228c7b4.png" />
 </div>
 </div>
 </section>
@@ -967,7 +961,7 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/7e95a1c3fa3b6578342cc9c9eaef1eab0b1ad386723cae6bc269b4b1172206f0.png" src="../_images/7e95a1c3fa3b6578342cc9c9eaef1eab0b1ad386723cae6bc269b4b1172206f0.png" />
+<img alt="../_images/b406d1c78d46c14855653f9aebaf9c8e716d853ef40374a7801e44cfef8788ad.png" src="../_images/b406d1c78d46c14855653f9aebaf9c8e716d853ef40374a7801e44cfef8788ad.png" />
 </div>
 </div>
 </section>
@@ -997,15 +991,15 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fb68b61c190&gt;,
- &lt;matplotlib.lines.Line2D at 0x7fb68b61cd10&gt;,
- &lt;matplotlib.lines.Line2D at 0x7fb68b61c390&gt;,
- &lt;matplotlib.lines.Line2D at 0x7fb68b61c110&gt;,
- &lt;matplotlib.lines.Line2D at 0x7fb68b61cc50&gt;,
- &lt;matplotlib.lines.Line2D at 0x7fb68b61c290&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x2855b6750&gt;,
+ &lt;matplotlib.lines.Line2D at 0x2862dbf10&gt;,
+ &lt;matplotlib.lines.Line2D at 0x2862db650&gt;,
+ &lt;matplotlib.lines.Line2D at 0x2862d8b10&gt;,
+ &lt;matplotlib.lines.Line2D at 0x2862d9450&gt;,
+ &lt;matplotlib.lines.Line2D at 0x286085810&gt;]
 </pre></div>
 </div>
-<img alt="../_images/8c84e382f4bae945f8459af71b4603a1663a2caac8bdf04965f19848ab171e9b.png" src="../_images/8c84e382f4bae945f8459af71b4603a1663a2caac8bdf04965f19848ab171e9b.png" />
+<img alt="../_images/a4c9f9486f83fdc7e585b252376356e3893771a01001cee148538899e211dd45.png" src="../_images/a4c9f9486f83fdc7e585b252376356e3893771a01001cee148538899e211dd45.png" />
 </div>
 </div>
 <p>Now, let’s build the 24 covariates related to head motion. We include the 6 realignment parameters that have been standardized. In addition, we add their quadratic, their derivative, and the square of their derivative.</p>
@@ -1026,10 +1020,10 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fb68bb6d210&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: &gt;
 </pre></div>
 </div>
-<img alt="../_images/9571f0622ab6d94fbdc5f178fefbbbfe3abe762bcdec26c703a7e697ef70eb52.png" src="../_images/9571f0622ab6d94fbdc5f178fefbbbfe3abe762bcdec26c703a7e697ef70eb52.png" />
+<img alt="../_images/6d386dea40554fc57f320f7ab723e3bc2f75727793fe47cdd797150af09c5c5d.png" src="../_images/6d386dea40554fc57f320f7ab723e3bc2f75727793fe47cdd797150af09c5c5d.png" />
 </div>
 </div>
 <p>Now let’s try to find some spikes in the data. This is performed by finding TRs that exceed a global mean threshold and also that exceed an overall average intensity change by a threshold.  We are using an arbitrary cutoff of 3 standard deviations as a threshold.</p>
@@ -1047,7 +1041,7 @@ memory usage: 10.1 KB
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0, 0.5, &#39;Intensity&#39;)
 </pre></div>
 </div>
-<img alt="../_images/aed016f47fd3ae313d51fda940cdb15d4b8631f767a92ff9716630c957986b5f.png" src="../_images/aed016f47fd3ae313d51fda940cdb15d4b8631f767a92ff9716630c957986b5f.png" />
+<img alt="../_images/019039d33d6ff76ef406f9fedf9c1e337972c099fcc647925401ae084cd5d79a.png" src="../_images/019039d33d6ff76ef406f9fedf9c1e337972c099fcc647925401ae084cd5d79a.png" />
 </div>
 </div>
 <p>Notice there is a clear slow drift in the signal that we will need to remove with our high pass filter.</p>
@@ -1063,10 +1057,10 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fb7010e7950&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: &gt;
 </pre></div>
 </div>
-<img alt="../_images/78e1f5313d9fddd49ff1922820be3751cd5cb61903f874159a38525be99f9345.png" src="../_images/78e1f5313d9fddd49ff1922820be3751cd5cb61903f874159a38525be99f9345.png" />
+<img alt="../_images/e95f0fe4ae87b22e5c3806eb19cd44912841f8a6d8bb185a8e8d28eb4ffe62c2.png" src="../_images/e95f0fe4ae87b22e5c3806eb19cd44912841f8a6d8bb185a8e8d28eb4ffe62c2.png" />
 </div>
 </div>
 <p>For this subject, our spike identification procedure identified 3 spikes. Two of these spikes look like they are temporally contiguous. Let’s add all of these covariate to our design matrix.</p>
@@ -1080,8 +1074,13 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/ff3a35c36800733fd2876fa4b80b37698fd94a223787f22aa765e53a62f487af.png" src="../_images/ff3a35c36800733fd2876fa4b80b37698fd94a223787f22aa765e53a62f487af.png" />
+<img alt="../_images/b398f2671618d411b8f16f9ba60298a299f41645c99b821341feaf6155ba6ddc.png" src="../_images/b398f2671618d411b8f16f9ba60298a299f41645c99b821341feaf6155ba6ddc.png" />
 </div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As discussed above, multicollineary can lead to unstable estimates of the regression coefficients, which is particularly important to keep in mind for regressors of interest. Multicollinearity between covariates of no interest tends to be less of a problem because we generally are just interested in explaining noise in our model and are rarely interested in interpreting the individual covariate beta coefficients. However, in cases of extreme collinearity, the model may become rank deficient, which can lead to difficulty with even fitting the model.</p>
+<p>A simple fix to this problem is to use the <code class="docutils literal notranslate"><span class="pre">.clean()</span></code> method. This method will remove any columns that are perfectly collinear with other columns in the design matrix.</p>
 </div>
 </section>
 </section>
@@ -1105,10 +1104,7 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>threshold is ignored for simple axial plots
-</pre></div>
-</div>
-<img alt="../_images/6906f562c75dd8499143a577917aceb3db0132adcd9fe7d8bc641fcaddebbc5f.png" src="../_images/6906f562c75dd8499143a577917aceb3db0132adcd9fe7d8bc641fcaddebbc5f.png" />
+<img alt="../_images/002eafe391368cb57a163f01b166209c9d27f2a388504b2d046ee7199d529b8e.png" src="../_images/002eafe391368cb57a163f01b166209c9d27f2a388504b2d046ee7199d529b8e.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -1118,10 +1114,7 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>threshold is ignored for simple axial plots
-</pre></div>
-</div>
-<img alt="../_images/57b6b253341d3f27be65d74cf07a11d37b0f0e7847395ec6ddd54acdaee848ac.png" src="../_images/57b6b253341d3f27be65d74cf07a11d37b0f0e7847395ec6ddd54acdaee848ac.png" />
+<img alt="../_images/d758fc0e2d801b921a64198b05c54be59f4a6f13b9cfdf6d2736e8e3e472c954.png" src="../_images/d758fc0e2d801b921a64198b05c54be59f4a6f13b9cfdf6d2736e8e3e472c954.png" />
 </div>
 </div>
 </section>
@@ -1140,7 +1133,7 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>dict_keys([&#39;beta&#39;, &#39;t&#39;, &#39;p&#39;, &#39;sigma&#39;, &#39;residual&#39;])
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>dict_keys([&#39;beta&#39;, &#39;t&#39;, &#39;p&#39;, &#39;df&#39;, &#39;sigma&#39;, &#39;residual&#39;])
 </pre></div>
 </div>
 </div>
@@ -1160,11 +1153,11 @@ memory usage: 10.1 KB
        &#39;audio_right_hand_c0&#39;, &#39;audio_sentence_c0&#39;, &#39;video_right_hand_c0&#39;,
        &#39;audio_left_hand_c0&#39;, &#39;video_left_hand_c0&#39;, &#39;vertical_checkerboard_c0&#39;,
        &#39;audio_computation_c0&#39;, &#39;video_sentence_c0&#39;, &#39;cosine_1&#39;, &#39;cosine_2&#39;,
-       &#39;cosine_3&#39;, &#39;cosine_4&#39;, &#39;poly_0&#39;, &#39;poly_1&#39;, &#39;poly_2&#39;, &#39;poly_3&#39;,
-       &#39;trans_x&#39;, &#39;trans_y&#39;, &#39;trans_z&#39;, &#39;rot_x&#39;, &#39;rot_y&#39;, &#39;rot_z&#39;, &#39;trans_x&#39;,
+       &#39;cosine_3&#39;, &#39;cosine_4&#39;, &#39;poly_0&#39;, &#39;poly_1&#39;, &#39;poly_2&#39;, &#39;trans_x&#39;,
        &#39;trans_y&#39;, &#39;trans_z&#39;, &#39;rot_x&#39;, &#39;rot_y&#39;, &#39;rot_z&#39;, &#39;trans_x&#39;, &#39;trans_y&#39;,
        &#39;trans_z&#39;, &#39;rot_x&#39;, &#39;rot_y&#39;, &#39;rot_z&#39;, &#39;trans_x&#39;, &#39;trans_y&#39;, &#39;trans_z&#39;,
-       &#39;rot_x&#39;, &#39;rot_y&#39;, &#39;rot_z&#39;, &#39;diff_spike1&#39;, &#39;diff_spike2&#39;, &#39;diff_spike3&#39;],
+       &#39;rot_x&#39;, &#39;rot_y&#39;, &#39;rot_z&#39;, &#39;trans_x&#39;, &#39;trans_y&#39;, &#39;trans_z&#39;, &#39;rot_x&#39;,
+       &#39;rot_y&#39;, &#39;rot_z&#39;, &#39;diff_spike1&#39;, &#39;diff_spike2&#39;, &#39;diff_spike3&#39;],
       dtype=&#39;object&#39;)
 </pre></div>
 </div>
@@ -1179,7 +1172,7 @@ memory usage: 10.1 KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "6f91755cf56e4335a11b7ee33eb0bd0a", "version_major": 2, "version_minor": 0}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "77c4832908f34a24b82d8add6394505c", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <section id="save-image">
 <h3>Save Image<a class="headerlink" href="#save-image" title="Permalink to this heading">#</a></h3>
@@ -1335,7 +1328,7 @@ memory usage: 10.1 KB
               
               
                 <footer class="prev-next-footer">
-                  <!-- Previous / next buttons -->
+                  
 <div class="prev-next-area">
     <a class="left-prev"
        href="GLM.html"
@@ -1421,6 +1414,7 @@ By Luke Chang
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
       © Copyright 2021.
@@ -1450,8 +1444,8 @@ By Luke Chang
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
 
   <footer class="bd-footer">
   </footer>
